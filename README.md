@@ -34,7 +34,7 @@ AI-powered clinical documentation tool for mental health professionals. MindScri
 
 ```bash
 cd mindscribe
-pip install -e .
+pip install -r requirements.txt
 
 # Set your Groq API key (get one free at console.groq.com)
 cp .env.example .env
