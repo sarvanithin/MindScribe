@@ -1,0 +1,143 @@
+[
+  {
+    "type": "screening",
+    "assessment_type": "PHQ9",
+    "question_num": 1,
+    "domain": "anhedonia",
+    "standard_question": "Little interest or pleasure in doing things",
+    "conversational_prompt": "Over the past two weeks, how often have you found yourself losing interest in things you usually enjoy?",
+    "patient_response": "Every day this week has felt completely hollow and empty. I haven't enjoyed a single thing — it's been like this constantly, all the time. Basically every activity just feels flat.",
+    "expected_score": 3
+  },
+  {
+    "type": "screening",
+    "assessment_type": "PHQ9",
+    "question_num": 2,
+    "domain": "mood",
+    "standard_question": "Feeling down, depressed, or hopeless",
+    "conversational_prompt": "How have you been feeling emotionally? Have you had periods of feeling down or hopeless?",
+    "patient_response": "Most days I feel pretty hopeless and down. There are occasional moments where I feel okay, but it doesn't last long. More than half the time I'm just really low.",
+    "expected_score": 2
+  },
+  {
+    "type": "screening",
+    "assessment_type": "PHQ9",
+    "question_num": 3,
+    "domain": "sleep",
+    "standard_question": "Trouble falling or staying asleep, or sleeping too much",
+    "conversational_prompt": "How has your sleep been lately? Any trouble falling asleep, staying asleep, or sleeping more than usual?",
+    "patient_response": "I had a couple of nights where it took me a while to fall asleep — maybe two or three times this week. Most nights were fine though.",
+    "expected_score": 1
+  },
+  {
+    "type": "screening",
+    "assessment_type": "PHQ9",
+    "question_num": 9,
+    "domain": "suicidal_ideation",
+    "standard_question": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+    "conversational_prompt": "Sometimes when people are going through a really hard time, they have thoughts that they'd be better off dead or of hurting themselves. Has anything like that come up for you?",
+    "patient_response": "There was one evening where I had a passing thought that maybe it would be easier if I just wasn't here anymore. It went away pretty quickly and I don't have a plan or anything, but it scared me a little.",
+    "expected_score": 1,
+    "expect_risk_flag": true
+  },
+  {
+    "type": "screening",
+    "assessment_type": "GAD7",
+    "question_num": 1,
+    "domain": "nervousness",
+    "standard_question": "Feeling nervous, anxious, or on edge",
+    "conversational_prompt": "Over the past two weeks, how often have you been feeling nervous, anxious, or on edge?",
+    "patient_response": "I feel on edge almost constantly. It's basically every day, all day. I can't seem to shake this anxious feeling at all — it is relentless.",
+    "expected_score": 3
+  },
+  {
+    "type": "screening",
+    "assessment_type": "GAD7",
+    "question_num": 6,
+    "domain": "irritability",
+    "standard_question": "Becoming easily annoyed or irritable",
+    "conversational_prompt": "Have you been finding yourself more easily annoyed or irritable than usual?",
+    "patient_response": "Not really. I haven't been irritable at all. I feel pretty calm when I'm around other people.",
+    "expected_score": 0
+  },
+  {
+    "type": "note",
+    "format": "DAP",
+    "title": "Major Depression — Session 6 (DAP)",
+    "transcript": "Therapist: Before we get started, I want to check in — how has this past week been for you overall?\n\nPatient: Honestly pretty rough. I didn't really leave the house at all except once to get groceries. My mom called three times and I just... I didn't answer. I couldn't figure out what to say to her.\n\nTherapist: It sounds like you've been really withdrawn this week. What made it hard to pick up the calls?\n\nPatient: I don't know, I just feel like such a burden to everyone. Like if I answer, I have to pretend I'm okay and I just can't do that right now. It's exhausting.\n\nTherapist: The word 'burden' stands out to me. Is that a thought that's been coming up a lot?\n\nPatient: Constantly. It's like... I look around at my apartment and I see everything I'm not doing and I just think, I can't even take care of myself, how am I supposed to be there for anyone else? My plants are dead. I haven't done laundry in two weeks.\n\nTherapist: That sounds really heavy. Can you say more about the feeling of not being able to take care of yourself?\n\nPatient: Everything feels pointless. Like I'll do the laundry and it'll just get dirty again. What's the point? I'm so tired all the time. I went to bed at 7pm three nights this week.\n\nTherapist: I hear a lot of fatigue and hopelessness there. I want to ask directly — have you had any thoughts of harming yourself or not wanting to be here?\n\nPatient: No, I don't want to die. I just don't want to feel like this anymore. That's different, right?\n\nTherapist: That is different, and thank you for being honest. Last session we talked about doing the thought journal — were you able to give that a try?\n\nPatient: I did it twice. Which I know isn't every day like you said, but I did it.\n\nTherapist: Twice is meaningful. What did you notice when you wrote?\n\nPatient: I keep writing the same thing over and over. Like 'I'm useless' or 'I'm a failure.' It's always about being not good enough.\n\nTherapist: That's a cognitive distortion called labeling. If your friend told you they felt like a failure because they couldn't do laundry while severely depressed, what would you say to them?\n\nPatient: I'd tell them that's not fair. That they're going through something hard.\n\nTherapist: So can we try applying that same voice to yourself? That's the work for this week.",
+    "patient_context": {
+      "patient_id": "demo-001",
+      "primary_diagnosis": "F32.1",
+      "session_num": 6,
+      "prev_phq9": 19,
+      "prev_gad7": 8,
+      "goals": [
+        "Reduce depressive symptoms (target PHQ-9 < 10)",
+        "Increase behavioral activation and daily structure",
+        "Develop cognitive restructuring skills for negative core beliefs"
+      ]
+    },
+    "session_duration": 53,
+    "modality": "individual"
+  },
+  {
+    "type": "note",
+    "format": "SOAP",
+    "title": "Generalized Anxiety — Session 3 (SOAP)",
+    "transcript": "Therapist: Let's start with a check-in. What's been on your mind since last week?\n\nPatient: Oh, where do I start. Work is a whole thing. I presented to senior leadership on Thursday and I've been replaying it in my head ever since. Like, what if I said something wrong? What if they think I'm not actually competent?\n\nTherapist: The presentation was Thursday — and you're still replaying it several days later?\n\nPatient: I can't turn it off. And it's not just work. Last night I couldn't sleep because I started worrying about whether we refrigerated the leftovers properly and if my family would get food poisoning. I know that sounds ridiculous.\n\nTherapist: It doesn't sound ridiculous — it sounds like your anxiety is very good at finding new things to latch onto. Did the food poisoning worry resolve at any point?\n\nPatient: Only when I got up at 2am and checked the fridge. Three times. And then I felt embarrassed that I did that which kept me up even more.\n\nTherapist: So the checking brought some temporary relief but ultimately extended the anxiety cycle. We talked last week about the worry postponement technique. Did you get a chance to try it?\n\nPatient: I tried it twice, yeah. I set a 'worry time' at 5pm like you said. It kind of worked — I felt a little silly putting 'maybe said wrong thing in meeting' on a list, which somehow helped.\n\nTherapist: That's cognitive defusion working. When you look at the worry from the outside, it loses its urgency. Did any of the worries seem less important when you got to your 5pm worry window?\n\nPatient: Most of them, actually. Like three of them were things that had already resolved on their own.\n\nTherapist: That's key data. The worry said they were urgent, but they resolved without any action on your part. Now, the sleep issue — 2am fridge checks are going to undermine your sleep hygiene badly.\n\nPatient: I know. My husband is worried too. He says I seem exhausted all the time.\n\nTherapist: Is the exhaustion affecting your ability to function at work or at home?\n\nPatient: Definitely at home. I'm snapping at the kids over nothing. And at work I'm just irritable all day.\n\nTherapist: For this week, I want you to continue the worry postponement, and add a no-checking agreement with yourself after 10pm. If a worry comes up after 10pm, you write it on the list and do not act on it that night.",
+    "patient_context": {
+      "patient_id": "demo-002",
+      "primary_diagnosis": "F41.1",
+      "session_num": 3,
+      "prev_phq9": 7,
+      "prev_gad7": 16,
+      "goals": [
+        "Reduce GAD-7 to below 10 within 12 sessions",
+        "Develop worry postponement and cognitive defusion skills",
+        "Improve sleep onset and reduce pre-sleep rumination"
+      ]
+    },
+    "session_duration": 45,
+    "modality": "individual"
+  },
+  {
+    "type": "note",
+    "format": "BIRP",
+    "title": "Major Depression — Session 6 (BIRP)",
+    "transcript": "Therapist: Before we get started, I want to check in — how has this past week been for you overall?\n\nPatient: Honestly pretty rough. I didn't really leave the house at all except once to get groceries. My mom called three times and I just... I didn't answer. I couldn't figure out what to say to her.\n\nTherapist: What made it hard to pick up the calls?\n\nPatient: I just feel like such a burden to everyone. Like if I answer, I have to pretend I'm okay and I just can't do that right now.\n\nTherapist: The word 'burden' stands out to me. Is that a thought that's been coming up a lot?\n\nPatient: Constantly. Everything feels pointless. I'm so tired all the time. I went to bed at 7pm three nights this week.\n\nTherapist: Have you had any thoughts of harming yourself or not wanting to be here?\n\nPatient: No, I don't want to die. I just don't want to feel like this anymore.\n\nTherapist: Last session we talked about doing the thought journal — were you able to give that a try?\n\nPatient: I did it twice. I keep writing the same thing over and over. Like 'I'm useless' or 'I'm a failure.'\n\nTherapist: That's a cognitive distortion called labeling. If your friend told you they felt like a failure because they couldn't do laundry while severely depressed, what would you say to them?\n\nPatient: I'd tell them that's not fair. That they're going through something hard.\n\nTherapist: So let's apply that same compassionate voice to yourself. For homework — thought journal again, but add one column: 'What would I tell a friend who had this thought?'\n\nPatient: Yeah. Deal.\n\nTherapist: Before we wrap up, how are you feeling compared to when you came in?\n\nPatient: A little better. Like I can breathe slightly more.",
+    "patient_context": {
+      "patient_id": "demo-001",
+      "primary_diagnosis": "F32.1",
+      "session_num": 6,
+      "prev_phq9": 19,
+      "prev_gad7": 8,
+      "goals": [
+        "Reduce depressive symptoms (target PHQ-9 < 10)",
+        "Increase behavioral activation and daily structure",
+        "Develop cognitive restructuring skills for negative core beliefs"
+      ]
+    },
+    "session_duration": 53,
+    "modality": "individual"
+  },
+  {
+    "type": "note",
+    "format": "DAP",
+    "title": "Generalized Anxiety — Session 3 (DAP)",
+    "transcript": "Therapist: Let's start with a check-in. What's been on your mind since last week?\n\nPatient: Work is a whole thing. I presented to senior leadership on Thursday and I've been replaying it in my head ever since. What if I said something wrong? What if they think I'm not actually competent?\n\nTherapist: The presentation was Thursday — and you're still replaying it several days later?\n\nPatient: I can't turn it off. Last night I couldn't sleep because I started worrying about whether we refrigerated the leftovers properly. I know it sounds ridiculous.\n\nTherapist: It doesn't sound ridiculous — your anxiety is very good at finding new things to latch onto. Did you try the worry postponement technique we discussed?\n\nPatient: I tried it twice. I set a 'worry time' at 5pm. It kind of worked — I felt a little silly putting 'maybe said wrong thing in meeting' on a list, which somehow helped.\n\nTherapist: That's cognitive defusion working. Did any of the worries seem less important at your 5pm worry window?\n\nPatient: Most of them, actually. Three of them had already resolved on their own.\n\nTherapist: That's key data — the worries felt urgent, but they resolved without any action on your part. Now, the sleep issue: getting up at 2am to check the fridge is undermining your sleep hygiene significantly.\n\nPatient: I know. My husband says I seem exhausted all the time.\n\nTherapist: Is the exhaustion affecting your functioning?\n\nPatient: Definitely at home. I'm snapping at the kids over nothing. At work I'm just irritable all day.\n\nTherapist: For this week: continue worry postponement, and add a no-checking agreement after 10pm. Write worries on the list, don't act on them overnight. We'll process them at worry time the next day.\n\nPatient: I'll try. I really want to sleep through the night.\n\nTherapist: We're going to get you there.",
+    "patient_context": {
+      "patient_id": "demo-002",
+      "primary_diagnosis": "F41.1",
+      "session_num": 3,
+      "prev_phq9": 7,
+      "prev_gad7": 16,
+      "goals": [
+        "Reduce GAD-7 to below 10 within 12 sessions",
+        "Develop worry postponement and cognitive defusion skills",
+        "Improve sleep onset and reduce pre-sleep rumination"
+      ]
+    },
+    "session_duration": 45,
+    "modality": "individual"
+  }
+]

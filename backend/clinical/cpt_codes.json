@@ -1,0 +1,68 @@
+[
+    {
+        "code": "90791",
+        "description": "Psychiatric diagnostic evaluation",
+        "duration": "varies",
+        "minutes": null
+    },
+    {
+        "code": "90832",
+        "description": "Psychotherapy, 16-37 minutes",
+        "duration": "30 min",
+        "minutes": 30
+    },
+    {
+        "code": "90834",
+        "description": "Psychotherapy, 38-52 minutes",
+        "duration": "45 min",
+        "minutes": 45
+    },
+    {
+        "code": "90837",
+        "description": "Psychotherapy, 53+ minutes",
+        "duration": "60 min",
+        "minutes": 60
+    },
+    {
+        "code": "90847",
+        "description": "Family psychotherapy with patient present",
+        "duration": "50 min",
+        "minutes": 50
+    },
+    {
+        "code": "90846",
+        "description": "Family psychotherapy without patient present",
+        "duration": "50 min",
+        "minutes": 50
+    },
+    {
+        "code": "90853",
+        "description": "Group psychotherapy",
+        "duration": "varies",
+        "minutes": null
+    },
+    {
+        "code": "96127",
+        "description": "Brief emotional/behavioral assessment (PHQ-9, GAD-7)",
+        "duration": "varies",
+        "minutes": null
+    },
+    {
+        "code": "90833",
+        "description": "Psychotherapy add-on, 16-37 min (with E/M)",
+        "duration": "30 min",
+        "minutes": 30
+    },
+    {
+        "code": "90836",
+        "description": "Psychotherapy add-on, 38-52 min (with E/M)",
+        "duration": "45 min",
+        "minutes": 45
+    },
+    {
+        "code": "90838",
+        "description": "Psychotherapy add-on, 53+ min (with E/M)",
+        "duration": "60 min",
+        "minutes": 60
+    }
+]

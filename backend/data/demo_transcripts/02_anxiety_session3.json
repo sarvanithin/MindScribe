@@ -1,0 +1,21 @@
+{
+    "id": "transcript-2",
+    "title": "Generalized Anxiety — Session 3",
+    "label": "Anxiety (GAD)",
+    "diagnosis_hint": "F41.1",
+    "session_duration": 45,
+    "modality": "individual",
+    "patient_context": {
+        "patient_id": "demo-002",
+        "primary_diagnosis": "F41.1",
+        "session_num": 3,
+        "prev_phq9": 7,
+        "prev_gad7": 16,
+        "goals": [
+            "Reduce GAD-7 to below 10 within 12 sessions",
+            "Develop worry postponement and cognitive defusion skills",
+            "Improve sleep onset and reduce pre-sleep rumination"
+        ]
+    },
+    "text": "Therapist: Let's start with a check-in. What's been on your mind since last week?\n\nPatient: Oh, where do I start. Work is a whole thing. I presented to senior leadership on Thursday and I've been replaying it in my head ever since. Like, what if I said something wrong? What if they think I'm not actually competent?\n\nTherapist: The presentation was Thursday — and you're still replaying it several days later?\n\nPatient: I can't turn it off. And it's not just work. Last night I couldn't sleep because I started worrying about whether we refrigerated the leftovers properly and if my family would get food poisoning. I know that sounds ridiculous.\n\nTherapist: It doesn't sound ridiculous — it sounds like your anxiety is very good at finding new things to latch onto. Did the food poisoning worry resolve at any point?\n\nPatient: Only when I got up at 2am and checked the fridge. Three times. And then I felt embarrassed that I did that which kept me up even more.\n\nTherapist: So the checking brought some temporary relief but ultimately extended the anxiety cycle. That's actually a really important thing to notice — behavior and anxiety are in a feedback loop. We talked last week about the worry postponement technique. Did you get a chance to try it?\n\nPatient: I tried it twice, yeah. I set a 'worry time' at 5pm like you said. And when a worry came up before that I'd write it on the list. It kind of worked? Like I felt a little silly putting 'maybe said wrong thing in meeting' on a list, which somehow helped.\n\nTherapist: That's a really useful observation — externalizing the worry can remove some of its power. The 'silly' feeling is often cognitive defusion working. When you look at the worry from the outside, it loses its urgency. Did any of the worries seem less important when you got to your 5pm worry window?\n\nPatient: Most of them, actually. Like three of them were things that had already resolved on their own.\n\nTherapist: That's key data. The worry said they were urgent, but they resolved without any action on your part. Over time your brain learns it doesn't need to stay on high alert. Now, the sleep issue — 2am fridge checks are going to undermine your sleep hygiene badly. Let's talk about that.\n\nPatient: I know. My husband is worried too. He says I seem exhausted all the time.\n\nTherapist: Is the exhaustion affecting your ability to function at work or at home?\n\nPatient: Definitely at home. I'm snapping at the kids over nothing. And at work I'm just irritable all day. I hate feeling like this.\n\nTherapist: That irritability is one of the GAD symptoms we want to target directly. For this week, I want you to continue the worry postponement, and I want to add one thing: a no-checking agreement with yourself after 10pm. If a worry comes up after 10pm, you write it on the list and do not act on it that night. We'll process it the next day at worry time.\n\nPatient: What if it's something real though?\n\nTherapist: That's exactly the right question, and the answer is part of CBT: almost everything that feels urgent at 2am is rated by your brain the next morning as a 4/10, not a 9/10. We're training your brain to trust that 'wait until morning' is safe. Deal?\n\nPatient: I'll try. I really want to sleep through the night.\n\nTherapist: We're going to get you there. Same time next week."
+}

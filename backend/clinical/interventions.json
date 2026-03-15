@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Cognitive Behavioral Therapy (CBT)",
+        "abbreviation": "CBT",
+        "techniques": [
+            "cognitive restructuring",
+            "behavioral activation",
+            "thought journaling",
+            "exposure therapy",
+            "activity scheduling",
+            "Socratic questioning",
+            "ABCDE model"
+        ]
+    },
+    {
+        "name": "Dialectical Behavior Therapy (DBT)",
+        "abbreviation": "DBT",
+        "techniques": [
+            "distress tolerance",
+            "emotion regulation",
+            "interpersonal effectiveness",
+            "mindfulness",
+            "TIPP skills",
+            "opposite action",
+            "radical acceptance"
+        ]
+    },
+    {
+        "name": "Motivational Interviewing (MI)",
+        "abbreviation": "MI",
+        "techniques": [
+            "open-ended questions",
+            "affirmations",
+            "reflective listening",
+            "summarizing",
+            "change talk elicitation",
+            "decisional balance",
+            "rolling with resistance"
+        ]
+    },
+    {
+        "name": "Psychoeducation",
+        "abbreviation": "PE",
+        "techniques": [
+            "diagnosis education",
+            "coping skills teaching",
+            "normalization",
+            "treatment rationale",
+            "sleep hygiene",
+            "stress response education"
+        ]
+    },
+    {
+        "name": "Solution-Focused Brief Therapy",
+        "abbreviation": "SFBT",
+        "techniques": [
+            "miracle question",
+            "scaling questions",
+            "exception finding",
+            "coping questions",
+            "compliments"
+        ]
+    },
+    {
+        "name": "Eye Movement Desensitization and Reprocessing",
+        "abbreviation": "EMDR",
+        "techniques": [
+            "bilateral stimulation",
+            "desensitization phase",
+            "installation phase",
+            "body scan",
+            "history-taking protocol",
+            "resourcing"
+        ]
+    },
+    {
+        "name": "Supportive Therapy",
+        "abbreviation": "ST",
+        "techniques": [
+            "active listening",
+            "validation",
+            "encouragement",
+            "reality testing",
+            "therapeutic alliance building",
+            "empathic reflection"
+        ]
+    },
+    {
+        "name": "Crisis Intervention",
+        "abbreviation": "CI",
+        "techniques": [
+            "safety planning",
+            "risk assessment",
+            "lethal means counseling",
+            "de-escalation",
+            "resource connection",
+            "Columbia Protocol administration"
+        ]
+    }
+]

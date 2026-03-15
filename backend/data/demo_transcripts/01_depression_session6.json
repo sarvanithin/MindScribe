@@ -1,0 +1,21 @@
+{
+    "id": "transcript-1",
+    "title": "Major Depression — Session 6",
+    "label": "Depression (MDD)",
+    "diagnosis_hint": "F32.1",
+    "session_duration": 53,
+    "modality": "individual",
+    "patient_context": {
+        "patient_id": "demo-001",
+        "primary_diagnosis": "F32.1",
+        "session_num": 6,
+        "prev_phq9": 19,
+        "prev_gad7": 8,
+        "goals": [
+            "Reduce depressive symptoms (target PHQ-9 < 10)",
+            "Increase behavioral activation and daily structure",
+            "Develop cognitive restructuring skills for negative core beliefs"
+        ]
+    },
+    "text": "Therapist: Before we get started, I want to check in — how has this past week been for you overall?\n\nPatient: Honestly pretty rough. I didn't really leave the house at all except once to get groceries. My mom called three times and I just... I didn't answer. I couldn't figure out what to say to her.\n\nTherapist: It sounds like you've been really withdrawn this week. What made it hard to pick up the calls?\n\nPatient: I don't know, I just feel like such a burden to everyone. Like if I answer, I have to pretend I'm okay and I just can't do that right now. It's exhausting.\n\nTherapist: The word 'burden' stands out to me. Is that a thought that's been coming up a lot?\n\nPatient: Constantly. It's like... I look around at my apartment and I see everything I'm not doing and I just think, I can't even take care of myself, how am I supposed to be there for anyone else? My plants are dead. I haven't done laundry in two weeks.\n\nTherapist: That sounds really heavy. Can you say more about the feeling of not being able to take care of yourself?\n\nPatient: Everything feels pointless. Like I'll do the laundry and it'll just get dirty again. I'll clean and it'll get messy again. What's the point? I'm so tired all the time. I went to bed at 7pm three nights this week.\n\nTherapist: I hear a lot of fatigue and hopelessness there. I want to ask directly — have you had any thoughts of harming yourself or not wanting to be here?\n\nPatient: No, I don't want to die. I just don't want to feel like this anymore. That's different, right?\n\nTherapist: That is different, and thank you for being honest. Not wanting to feel this way is actually something we can work with together. Last session we talked about doing the thought journal — were you able to give that a try?\n\nPatient: I did it twice. Which I know isn't every day like you said, but I did it.\n\nTherapist: Twice is meaningful. That took real effort given how you've been feeling. What did you notice when you wrote?\n\nPatient: I keep writing the same thing over and over. Like 'I'm useless' or 'I'm a failure.' It's always about being not good enough.\n\nTherapist: What we call that in CBT is an automatic thought — and specifically I'm hearing a cognitive distortion called 'labeling.' You're taking one experience and using it to define your whole identity. If your friend told you they felt like a failure because they couldn't do laundry for two weeks while severely depressed, what would you say to them?\n\nPatient: I'd tell them that's not fair. That they're going through something hard.\n\nTherapist: Exactly. So can we try applying that same voice to yourself? That's the work for this week — when 'I'm useless' shows up, I want you to ask: would I say this to a friend who was struggling the same way?\n\nPatient: I can try. I mean I know it sounds simple but it's hard when you're in it.\n\nTherapist: It is hard. And it gets easier with practice. For the homework — let's do the thought journal again, and this time add one column: 'What would I tell a friend who had this thought?' Deal?\n\nPatient: Yeah. Deal.\n\nTherapist: Before we wrap up, how are you feeling in this moment compared to when you came in?\n\nPatient: A little better. Like I can breathe slightly more. I don't know if that makes sense.\n\nTherapist: It makes complete sense. We'll see each other same time next week."
+}
