@@ -1,18 +1,32 @@
 # MindScribe
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green) ![React](https://img.shields.io/badge/React-18+-61DAFB) ![Gemini](https://img.shields.io/badge/Gemini-API-orange)
+![Python](https://img.shields.io/badge/Python-3.11+-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green) ![React](https://img.shields.io/badge/React-18+-61DAFB) ![Groq](https://img.shields.io/badge/Groq-Llama--3.3--70B-orange) ![License](https://img.shields.io/badge/license-MIT-blue)
 
-AI-powered clinical documentation tool for mental health professionals. MindScribe conducts conversational PHQ-9 and GAD-7 screenings and generates structured clinical notes (DAP, SOAP, BIRP) from therapy session transcripts.
+AI-powered clinical documentation tool for mental health professionals. MindScribe conducts conversational PHQ-9 and GAD-7 screenings and generates structured clinical notes (DAP, SOAP, BIRP) from therapy session transcripts — powered by Llama 3.3 70B via Groq.
+
+---
+
+## Screenshots
+
+**Conversational PHQ-9 Screening**
+
+![Screening chat UI showing adaptive conversational questions with running score tracker](docs/screenshot_screening.png)
+
+**Note Generator**
+
+![Note generator showing DAP/SOAP/BIRP format selector with generated clinical note output](docs/screenshot_notes.png)
+
+---
 
 ## Features
 
-- **Conversational Screening** — PHQ-9 and GAD-7 administered as natural dialogue, not a checkbox form
-- **Automatic Scoring** — AI maps free-text patient responses to 0–3 severity scores per item
-- **Risk Detection** — flags suicidal ideation (PHQ-9 Q9) and triggers crisis resource display
-- **Note Generation** — produces DAP, SOAP, or BIRP notes from session transcripts in seconds
+- **Conversational Screening** — PHQ-9 and GAD-7 as adaptive dialogue, not a checkbox form; questions adjust tone based on prior answers
+- **Automatic Scoring** — LLM maps free-text patient responses to 0–3 severity scores per item, with heuristic fallback
+- **Risk Detection** — flags suicidal ideation (PHQ-9 Q9) at both keyword and LLM level; always forces a flag on any positive Q9 response
+- **Note Generation** — DAP, SOAP, or BIRP notes from session transcripts in seconds
 - **ICD-10 & CPT Coding** — suggests diagnosis codes and billing codes automatically
-- **Dashboard** — session history, screening trends, and prior note review
-- **Demo Mode** — works without an API key using pre-seeded demo data
+- **Dashboard** — session history, screening trends (Recharts), prior note review
+- **Demo Mode** — fully functional without an API key using pre-seeded data
 
 ## Quick Start
 
@@ -20,12 +34,13 @@ AI-powered clinical documentation tool for mental health professionals. MindScri
 
 ```bash
 cd mindscribe
-pip install -r requirements.txt
+pip install -e .
 
-# Optional: set Gemini API key for live AI features
-export GEMINI_API_KEY=your_key_here
+# Set your Groq API key (get one free at console.groq.com)
+cp .env.example .env
+# Edit .env and add your GROQ_API_KEY
 
-# Seed demo data (optional)
+# Optional: seed demo screening data
 python scripts/seed_demo.py
 
 # Start server
@@ -43,7 +58,7 @@ npm run dev
 
 ## Demo Mode
 
-The app runs in demo mode when no `GEMINI_API_KEY` is set. All endpoints respond with realistic pre-generated data so the full UI can be exercised without an API key. Run `python scripts/seed_demo.py` first to populate demo screenings.
+Without a `GROQ_API_KEY`, the app runs in demo mode automatically — adaptive questions use curated static phrasings and notes use realistic pre-written templates. Run `python scripts/seed_demo.py` first to populate demo screening history.
 
 ## API Overview
 
@@ -62,25 +77,22 @@ Base URL: `http://localhost:8000/api`
 ## Evaluation
 
 ```bash
-# Must have backend running on port 8000 for note eval
-python -m uvicorn backend.main:app --port 8000 &
-
 # Screening accuracy (no backend needed)
 python -m evaluation.screening_eval
 # Expected: >= 80% pass rate
 
-# Note quality
+# Note quality (requires backend running on port 8000)
 python -m evaluation.note_eval
 # Expected: 100% pass rate
 ```
 
-The evaluation suite lives in `evaluation/` and tests against `evaluation/test_transcripts.json` — 6 screening cases and 4 note generation cases covering all three note formats.
+The evaluation suite tests against `evaluation/test_transcripts.json` — 6 screening cases (PHQ-9 anhedonia severe, PHQ-9 mood moderate, PHQ-9 sleep mild, PHQ-9 suicidal ideation with risk flag, GAD-7 nervousness severe, GAD-7 irritability none) and 4 note generation cases covering all three note formats.
 
 ## Clinical Disclaimer
 
 MindScribe is a **research and demonstration tool only**.
 
-- No real patient data should be entered — all data is stored in-memory and lost on restart
+- No real patient data should be entered — all data is in-memory and lost on restart
 - This system is not HIPAA-compliant infrastructure
 - AI-generated notes and scores must be reviewed by a licensed clinician before any clinical use
 - PHQ-9 and GAD-7 are validated instruments; this implementation is for workflow demonstration only

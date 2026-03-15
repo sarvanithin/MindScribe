@@ -1,5 +1,6 @@
 [
   {
+    "name": "PHQ9 anhedonia — severe (score 3)",
     "type": "screening",
     "assessment_type": "PHQ9",
     "question_num": 1,
@@ -10,6 +11,7 @@
     "expected_score": 3
   },
   {
+    "name": "PHQ9 depressed mood — moderate (score 2)",
     "type": "screening",
     "assessment_type": "PHQ9",
     "question_num": 2,
@@ -20,6 +22,7 @@
     "expected_score": 2
   },
   {
+    "name": "PHQ9 sleep disturbance — mild (score 1)",
     "type": "screening",
     "assessment_type": "PHQ9",
     "question_num": 3,
@@ -30,6 +33,7 @@
     "expected_score": 1
   },
   {
+    "name": "PHQ9 suicidal ideation — passive (score 1, risk flag expected)",
     "type": "screening",
     "assessment_type": "PHQ9",
     "question_num": 9,
@@ -41,6 +45,7 @@
     "expect_risk_flag": true
   },
   {
+    "name": "GAD7 nervousness — severe (score 3)",
     "type": "screening",
     "assessment_type": "GAD7",
     "question_num": 1,
@@ -51,6 +56,7 @@
     "expected_score": 3
   },
   {
+    "name": "GAD7 irritability — none (score 0)",
     "type": "screening",
     "assessment_type": "GAD7",
     "question_num": 6,
