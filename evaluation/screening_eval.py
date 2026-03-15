@@ -40,7 +40,8 @@ async def run_eval():
         if ok:
             passed += 1
         status = "✓ PASS" if ok else "✗ FAIL"
-        print(f"{status}  Q{t['question_num']} [{t['domain']}]")
+        label = t.get("name") or f"Q{t['question_num']} [{t['domain']}]"
+        print(f"{status}  {label}")
         print(f"       Response: '{t['patient_response'][:60]}'")
         print(f"       Expected: {expected} | Got: {actual} | Confidence: {result['confidence']:.2f}")
         if t.get("expect_risk_flag"):

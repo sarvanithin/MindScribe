@@ -75,7 +75,8 @@ async def run_eval():
             passed += 1
 
         status = "✓ PASS" if all_pass else "✗ FAIL"
-        print(f"{status}  {t['title']} [{fmt}]")
+        label = t.get("name") or t["title"]
+        print(f"{status}  {label} [{fmt}]")
         for label, ok in checks:
             print(f"       {'✓' if ok else '✗'} {label}")
         print()
